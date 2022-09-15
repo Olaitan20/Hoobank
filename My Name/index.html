@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>My Name</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              //   Mainbackground: "hsla(223, 12%, 12%, 1)",
+              icon1: "hsla(0, 0%, 100%, 0)",
+              icon: "hsla(260, 29%, 9%, 1)",
+              top: "hsla(182, 74%, 93%, 1)",
+              pot: "hsla(182, 73%, 85%, 1)",
+              blue: "hsla(188, 62%, 51%, 1)",
+              block: "hsla(0, 0%, 15%, 1)",
+              span: "hsla(0, 0%, 100%, 0.6)",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="bg-[#00040F]">
+    <header class="mb-40">
+      <!-- Nav Bar -->
+      <nav
+        class="flex justify-between pt-[30px] mb-[70px] md:mb-[120px] pl-[40px] pr-[40px] md:px-[134px]"
+      >
+        <img src="./images/Logo.svg" alt="" class="" />
+        <ul class="text-white font-normal md:flex hidden md:block ">
+          <li class="mr-[56px]"><a href="#">Home</a></li>
+          <li class="mr-[56px]"><a href="#">About Us</a></li>
+          <li class="mr-[56px]"><a href="#">Features</a></li>
+          <li><a href="#">Solution</a></li>
+        </ul>
+        <img src="./images/Vector.svg" alt="" id="hamburger"  class="md:hidden">
+        <!-- collapse menu -->
+        <div id="menu" class="hidden fixed delay-500 top-[75px]  right-[50px] bg-block px-40 py-12 ">
+            <ul class="text-white text-center font-normal">
+                <li class="mb-2 uppercase"><a href="#">Home</a></li>
+                <li class="mb-2 uppercase"><a href="#">About Us</a></li>
+                <li class="mb-2 uppercase"><a href="#">Features</a></li>
+                <li class="uppercase"><a href="#">Solution</a></li>
+              </ul> 
+        </div>
+      </nav>
+      <!-- First Section -->
+      <section class="pl-[40px] pr-[40px] md:px-[130px] mb-16  md:flex flex-row">
+        <article class="w-10/12 mb-16 md:w-full">
+          <div class="flex items-center bg-block w-[290px] hidden md:flex md:w-[408px] h-[40px] rounded-xl">
+            <img src="./images/Iconly/Bulk/Discount.svg" alt="" class="pl-4" />
+            <p class="text-white ml-2 md:ml-4  uppercase">
+              20% <span class="text-span">Discount For</span> 1 Month
+              <span class="text-span">Account</span>
+            </p>
+          </div>
+          <h1
+            class="text-white  text-5xl md:text-7xl leading-[50px] md:leading-[100px] tracking-wide font-bold mt-[19px] mb-[40px]"
+          >
+            The Next <br />
+            <span class="text-blue">Generation</span> <br />
+            Payment Method.
+          </h1>
+          <p class="text-span ">
+            Our team of experts uses a methodology to identify <br />
+            the credit cards most likely to fit your needs. <br />
+            We examine annual percentage rates, annual fees.
+          </p>
+        </article>
+        <div>
+          <img src="./images/pic2.png" alt="" class="w-full md:w-full" />
+        </div>
+      </section>
+      <!-- mid sec -->
+      <section class="px-[24px] md:px-[130px] hidden mt-40 md:flex justify-between items-center">
+        <div class="flex items-center ">
+          <h1 class="text-white text-[10px] md:text-[40.89px] mr-4">3800+</h1>
+          <span class="text-blue uppercase">User Active</span>
+        </div>
+        <img src="./images/Line 2.png" alt="" class="ml-12" />
+        <div class="flex items-center">
+          <h1 class="text-white text-[10px] md:text-[40.89px] mr-2 md:mr-4">230+</h1>
+          <span class="text-blue  uppercase">trusted companies</span>
+        </div>
+        <img src="./images/Line 2.png" alt="" class="ml-12" />
+        <div class="flex items-center">
+          <h1 class="text-white text-[10px] md:text-[40.89px] mr-4">$250M+</h1>
+          <span class="text-blue  uppercase">transactions</span>
+        </div>
+      </section>
+    </header>
+
+    <!-- hero section -->
+    <section class="px-[130px] mb-[160px] flex justify-between items-center">
+      <!-- first article -->
+      <!-- <article>
+        <h1 class="text-white font-bold mb-[24px] text-[48px]">
+          You do the business, <br />
+          we’ll handle the money.
+        </h1>
+        <p class="text-span mb-[67px] text-[18px] leading-[30.6px]">
+          With the right credit card, you can improve your financial life by
+          <br />
+          building credit, earning rewards and saving money. But with <br />
+          hundreds of credit cards on the market.
+        </p>
+        <button
+          class="bg-gradient-to-b from-top bg-gradient-to-r from-pot px-[33px] bg-blue py-[17px] rounded-xl"
+        >
+          <a href="#">Get Started</a>
+        </button>
+      </article> -->
+      <!-- second article -->
+      <article>
+        <!-- icon1 -->
+        <!-- <div class="flex items-center mb-[36px]">
+          <img src="./images/icon2.svg" alt="" />
+          <div class="ml-4">
+            <h2 class="text-white text-[18px] font-bold mb-[8px]">Rewards</h2>
+            <p class="text-span">
+              The best credit cards offer some tantalizing combinations of
+              <br />
+              promotions and prizes
+            </p>
+          </div>
+        </div> -->
+        <!-- icon2 -->
+        <!-- <div
+          class="flex items-center bg-gradient-to-b from-icon2 bg-icon pt-[20px] pb-[16px] pl-[20px] mb-[40px] rounded-xl"
+        >
+          <img src="./images/icon1.svg" alt="" />
+          <div class="ml-4">
+            <h2 class="text-white text-[18px] font-bold mb-[8px]">
+              100% Secured
+            </h2>
+            <p class="text-span">
+              We take proactive steps make sure your <br />
+              information and transactions are secure.
+            </p>
+          </div>
+        </div> -->
+        <!-- icon3 -->
+        <!-- <div class="flex items-center">
+          <img src="./images/icon3.svg" alt="" />
+          <div class="ml-4">
+            <h2 class="text-white text-[18px] font-bold mb-[8px]">
+              Balance Transfer
+            </h2>
+            <p class="text-span">
+              A balance transfer credit card can save you <br />
+              a lot of money in interest charges.
+            </p>
+          </div>
+        </div>
+      </article>
+    </section> -->
+
+    <!-- hero section 2 -->
+    <!-- <section class="px-[130px]">
+      <img src="./images/pic1.png" alt="" />
+    </section> -->
+    <script src="./app.js"></script>
+  </body>
+</html>
